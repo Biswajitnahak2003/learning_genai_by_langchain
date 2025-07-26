@@ -11,4 +11,4 @@ model = GoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.2)
 
 if st.button("summarize"):
     result = model.invoke(user_input)
-    st.write("your output is:"+result)
+    st.write(result)
