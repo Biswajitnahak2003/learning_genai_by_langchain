@@ -52,13 +52,11 @@ Make sure your virtual environment is activated and install the following:
 ```bash
 pip install langchain langchain-google-genai python-dotenv
 
-📚 References
+📚 **References**
 
-    LangChain Docs
-
-    OpenAI API
-
-    Prompt Engineering Guide
+- [LangChain Docs](https://docs.langchain.com/)
+- [OpenAI API](https://platform.openai.com/docs/)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 👨‍💻 Author
 
