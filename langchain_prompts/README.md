@@ -49,7 +49,6 @@ langchain_prompts/
 
 Make sure your virtual environment is activated and install the following:
 
-```bash
 pip install langchain langchain-google-genai python-dotenv
 
 📚 **References**
