@@ -3,8 +3,6 @@
 This is my personal learning journey through GenAI tools and frameworks — primarily focused on LangChain, Google Gemini, and Hugging Face.  
 It contains code for working with prompts (static & dynamic), chat models, embedding models, and more.
 
----
-
 📦 learning_genai_by_langchain/
 │
 ├── langchain_models/                    # Base venv + general LangChain model testing
@@ -28,8 +26,6 @@ It contains code for working with prompts (static & dynamic), chat models, embed
 ├── requirements.txt                    # Python dependencies (LangChain, etc.)
 └── README.md                           # Project overview and usage instructions
 
-
----
 
 ## ⚙️ Setup Instructions
 
