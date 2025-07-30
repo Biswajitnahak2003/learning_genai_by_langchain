@@ -5,19 +5,29 @@ It contains code for working with prompts (static & dynamic), chat models, embed
 
 ---
 
-## 📂 Project Structure
+📦 learning_genai_by_langchain/
+│
+├── langchain_models/                    # Base venv + general LangChain model testing
+│   ├── chatmodels/                      # Chat models (Gemini, Hugging Face, etc.)
+│   └── embeddingmodels/                 # Embedding models (Gemini, Hugging Face, etc.)
+│
+├── langchain_prompts/                  # Prompt engineering and chatbot prompts
+│   ├── prompt_static.py                # Simple static prompt example
+│   ├── prompt_dynamic.py               # Dynamic prompt template using variables
+│   ├── chatbot_static.py               # Static chatbot using LangChain prompt
+│   ├── chat_prompt_templte.py          # Custom ChatPromptTemplate class
+│   ├── message_placeholder.py          # Handles message placeholders
+│   ├── prompt_generator.py             # Generates prompts from templates
+│   ├── chat_history.txt                # Sample input/output from chatbot
+│   ├── template.json                   # JSON template for dynamic prompts (if used)
+│   └── README.md                       # You're reading it :)
+│
+├── test.py                             # General test script
+├── .env                                # For storing API keys (e.g., OpenAI, Gemini)
+├── .gitignore                          # Files/folders to ignore in version control
+├── requirements.txt                    # Python dependencies (LangChain, etc.)
+└── README.md                           # Project overview and usage instructions
 
-```
-learning_genai_by_langchain/
-├── langchain_models/         # Base venv + general LangChain testing
-│   ├── chatmodels/           # Chat models (Gemini, Hugging Face, etc.)
-│   ├── embeddingmodels/      # Embedding models (Gemini, Hugging Face, etc.)
-├── langchain_prompts/        # Prompt engineering (prompt_static.py, prompt_dynamic.py)
-├── test.py                   # Test script
-├── .env                      # For storing API keys
-├── .gitignore                # Files/folders to ignore
-├── requirements.txt          # Dependencies
-```
 
 ---
 
