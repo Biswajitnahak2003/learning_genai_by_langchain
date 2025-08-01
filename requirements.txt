@@ -30,3 +30,6 @@ sentence-transformers
 
 # for web application
 streamlit
+
+# for strutured output
+pydantic
