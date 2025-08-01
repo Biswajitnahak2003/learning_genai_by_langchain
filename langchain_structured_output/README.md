@@ -101,6 +101,14 @@ Then run any script like:
 
     All outputs are validated before printing — any mismatch will throw a validation error.
 
+📌 References
+
+- LangChain Docs: https://docs.langchain.com/
+- OpenAI API: https://platform.openai.com/docs/
+- LangChain Output Parsers: https://docs.langchain.com/docs/components/output_parsers/
+- Pydantic Documentation: https://docs.pydantic.dev/
+
+
 📌 Author
 
 Biswajit Nahak
