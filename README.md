@@ -5,41 +5,39 @@ It contains code for working with prompts (static & dynamic), chat models, embed
 
 learning_genai_by_langchain/
 
-├── langchain_models/ → Base venv + general LangChain model testing
+├── langchain_models/                            # Base venv + general LangChain model testing
+│   ├── chatmodels/                              # Chat model examples (OpenAI, Gemini, HuggingFace, etc.)
+│   └── embeddingmodels/                         # Embedding model examples (OpenAI, Gemini, HuggingFace, etc.)
 
-│ ├── chatmodels/ → Chat models (Gemini, Hugging Face, etc.)
+├── langchain_prompts/                           # Prompt engineering and chatbot demos
+│   ├── prompt_static.py                         # Static prompt example using basic PromptTemplate
+│   ├── prompt_dynamic.py                        # Dynamic prompt using variables and JSON template
+│   ├── chatbot_static.py                        # Simple static chatbot with LangChain
+│   ├── chat_prompt_templte.py                   # Custom ChatPromptTemplate class example
+│   ├── message_placeholder.py                   # MessagePlaceholder demo (chat formatting support)
+│   ├── prompt_generator.py                      # Generates prompts dynamically from template.json
+│   ├── chat_history.txt                         # Sample I/O from chatbot testing
+│   ├── template.json                            # JSON-based prompt structure used in dynamic prompt
+│   └── README.md                                 # Documentation for all prompt-related files
 
-│ └── embeddingmodels/ → Embedding models (Gemini, Hugging Face, etc.)
+├── structured_output/                           # Structured output parsing demos
+│   ├── structured_openai_jsonschema.py          # Using OpenAI's native structured output (tool_choice / response_format)
+│   ├── structured_jsonparser.py                 # JSONOutputParser example for general models
+│   ├── structured_stringparser.py               # StringOutputParser for basic use-cases
+│   ├── structured_pydanticparser.py             # PydanticOutputParser to parse outputs into models
+│   ├── schema_definitions.py                    # Shared Pydantic models or JSON schema definitions
+│   └── README.md                                 # Full explanation of structured output strategies
 
-├── langchain_prompts/ → Prompt engineering and chatbot prompts
+├── test.py                                      # General test file for quick experimentation
 
-│ ├── prompt_static.py → Simple static prompt example
+├── .env                                         # API keys for OpenAI, Gemini, etc. (not committed)
 
-│ ├── prompt_dynamic.py → Dynamic prompt template using variables
+├── .gitignore                                   # Git ignore file for venv, .env, etc.
 
-│ ├── chatbot_static.py → Static chatbot using LangChain prompt
+├── requirements.txt                             # All required Python packages
 
-│ ├── chat_prompt_templte.py → Custom ChatPromptTemplate class
+└── README.md                                    # Main project documentation
 
-│ ├── message_placeholder.py → Handles message placeholders
-
-│ ├── prompt_generator.py → Generates prompts from templates
-
-│ ├── chat_history.txt → Sample input/output from chatbot
-
-│ ├── template.json → JSON template for dynamic prompts
-
-│ └── README.md → You're reading it :)
-
-├── test.py → General test script
-
-├── .env → For storing API keys (OpenAI, Gemini, etc.)
-
-├── .gitignore → Files/folders to ignore in version control
-
-├── requirements.txt → Python dependencies (LangChain, etc.)
-
-└── README.md → Project overview and usage instructions
 
 ## ⚙️ Setup Instructions
 
