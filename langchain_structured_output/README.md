@@ -46,7 +46,7 @@ langchain_structured_output/
 
 ### `json_op_parser.py`
 
-```python
+python
 {'name': 'John Doe', 'age': 30, 'city': 'New York'}
 <class 'dict'>
 
