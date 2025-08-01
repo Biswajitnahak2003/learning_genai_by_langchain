@@ -9,7 +9,8 @@ learning_genai_by_langchain/
 │   ├── chatmodels/                              # Chat model examples (OpenAI, Gemini, HuggingFace, etc.)
 │   └── embeddingmodels/                         # Embedding model examples (OpenAI, Gemini, HuggingFace, etc.)
 
-├── langchain_prompts/                           # Prompt engineering and chatbot demos
+├── langchain_prompts/ 
+# Prompt engineering and chatbot demos
 │   ├── prompt_static.py                         # Static prompt example using basic PromptTemplate
 │   ├── prompt_dynamic.py                        # Dynamic prompt using variables and JSON template
 │   ├── chatbot_static.py                        # Simple static chatbot with LangChain
