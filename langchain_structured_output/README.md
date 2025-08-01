@@ -3,19 +3,24 @@
 This folder demonstrates how to **parse, validate, and extract structured outputs** from **Gemini 1.5 Flash** using [LangChain](https://www.langchain.com/).
 
 You'll find multiple approaches for handling structured outputs:
-- ✅ Using **Pydantic models**
-- ✅ Using **JSON Schemas**
-- ✅ Using **Output Parsers** like `JsonOutputParser` and `StrOutputParser` and more to be updated soon
+-  Using **Pydantic models**
+-  Using **JSON Schemas**
+-  Using **Output Parsers** like `JsonOutputParser` and `StrOutputParser` and more to be updated soon
 
 ---
 
 ## 📁 Folder Structure
 
 langchain_structured_output/
+
 ├── using_pydantic.py # Validates Gemini output with a pydantic.BaseModel
+
 ├── schema.json # JSON Schema definition for a user profile
+
 ├── main_json_schema.py # Validates Gemini output using schema.json
+
 ├── str_op_parser.py # Uses StrOutputParser for direct string response
+
 └── json_op_parser.py # Uses JsonOutputParser for dictionary-like parsing
 
 
@@ -42,28 +47,17 @@ langchain_structured_output/
 
 ---
 
-##  Sample Output
 
-### `json_op_parser.py`
-
-python
-{'name': 'John Doe', 'age': 30, 'city': 'New York'}
-<class 'dict'>
-
-using_pydantic.py
-
-Review(product='Sony WH-1000XM4', rating=4.5, sentiment='positive')
-<class '__main__.Review'>
 
 📌 How to Run
 
 Make sure you're using a virtual environment with langchain and google.generativeai installed:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Then run any script like:
 
-python json_op_parser.py
+    python json_op_parser.py
 
 📌 Notes
 
