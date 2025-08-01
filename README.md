@@ -6,11 +6,12 @@ It contains code for working with prompts (static & dynamic), chat models, embed
 learning_genai_by_langchain/
 
 ├── langchain_models/                            # Base venv + general LangChain model testing
+
 │   ├── chatmodels/                              # Chat model examples (OpenAI, Gemini, HuggingFace, etc.)
 │   └── embeddingmodels/                         # Embedding model examples (OpenAI, Gemini, HuggingFace, etc.)
 
-├── langchain_prompts/ 
-# Prompt engineering and chatbot demos
+├── langchain_prompts/                           # Prompt engineering and chatbot demos
+
 │   ├── prompt_static.py                         # Static prompt example using basic PromptTemplate
 │   ├── prompt_dynamic.py                        # Dynamic prompt using variables and JSON template
 │   ├── chatbot_static.py                        # Simple static chatbot with LangChain
@@ -22,6 +23,7 @@ learning_genai_by_langchain/
 │   └── README.md                                 # Documentation for all prompt-related files
 
 ├── structured_output/                           # Structured output parsing demos
+
 │   ├── structured_openai_jsonschema.py          # Using OpenAI's native structured output (tool_choice / response_format)
 │   ├── structured_jsonparser.py                 # JSONOutputParser example for general models
 │   ├── structured_stringparser.py               # StringOutputParser for basic use-cases
